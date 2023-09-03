@@ -9,3 +9,13 @@ All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
 I've never used Photoshop before, so some may not find my placeholders perfect,
 but they do for me, and I've learned a lot from it.
+
+Placeholder for Georgia-ReBORN Theme "Skin"
+
+you find the Placeholder Folder at
+
+profil/georgia-reborn/images/discart
+
+pleace rename the File in to the zip Folder.
+
+"RTM.LPR90.Pink.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png" to "cd-black.png" etc..
