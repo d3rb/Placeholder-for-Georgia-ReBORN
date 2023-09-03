@@ -14,7 +14,7 @@ Placeholder for Georgia-ReBORN Theme "Skin"
 
 you find the Placeholder Folder at
 
-profil/georgia-reborn/images/discart
+"profile/georgia-reborn/images/discart"
 
 pleace rename the File in to the zip Folder.
 
