@@ -1,5 +1,7 @@
 # Placeholder
 
+![IMG20230818131742@0,5x](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/5bdbacad-999a-4931-b0ca-29544d5887b8)
+
 ![Publish Placeholder](https://github.com/d3rb/Placeholder/assets/15198548/852a0cde-54bb-4568-b885-17f0e1ed3120)
 
 ![Publish Vinyl Placeholder](https://github.com/d3rb/Placeholder/assets/15198548/fbf60173-cfb8-4afe-a0bd-8f82418dbee9)
