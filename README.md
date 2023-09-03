@@ -29,3 +29,8 @@ Rename the File in to the zip Folder. ->
 greetings
 
 d3rb
+
+
+Thanks
+--------------------------------------------
+Many thanks to "https://github.com/TT-ReBORN/" for the new interpretation of this Skin!!
