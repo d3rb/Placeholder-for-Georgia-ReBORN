@@ -33,5 +33,5 @@ d3rb
 
 Thanks
 --------------------------------------------
-Many thanks to "https://github.com/TT-ReBORN/" for the new interpretation of this Skin!!
-Many thanks to Mordred for his original Georgia theme
+Many thanks to TT "https://github.com/TT-ReBORN/" for the new interpretation of this Skin!!
+Many thanks to Mordred "https://github.com/kbuffington" for his original Georgia theme
