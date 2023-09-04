@@ -1,4 +1,4 @@
-# Placeholder
+# -= Placeholder =-
 
 ![IMG20230818131742@0,5x](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/3c8345fc-8a8c-44aa-9316-127c05763539)
 
@@ -14,8 +14,8 @@ but they do for me, and I've learned a lot from it."
 
 
 
-Placeholder for Georgia-ReBORN Theme "Skin"
--------------------------------------------
+# Placeholder for Georgia-ReBORN Theme "Skin"
+
 
 
 you find the Placeholder Folder at
@@ -31,7 +31,8 @@ greetings
 d3rb
 
 
-Thanks
---------------------------------------------
+# Thanks
+
 Many thanks to TT "https://github.com/TT-ReBORN/" for the new interpretation of this Skin!!
+
 Many thanks to Mordred "https://github.com/kbuffington" for his original Georgia theme
