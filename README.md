@@ -6,11 +6,16 @@
 
 ![Publish Vinyl Placeholder](https://github.com/d3rb/Placeholder/assets/15198548/fbf60173-cfb8-4afe-a0bd-8f82418dbee9)
 
+![R2R Planet 1 Logo+NAB-Big New Ring Shadowed](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/91db47ff-c5bf-4b2f-be73-550605e89cc1)
+
+![New Airbrushed Reels Wallpaper](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/103460b0-1135-48d5-a7be-ce01bf10775e)
+
+
 
 "All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
-I've never used Photoshop before, so some may not find my placeholders perfect,
-but they do for me, and I've learned a lot from it."
+I've never used Photoshop before, so some may find my placeholders not perfect,
+but they do it for me.
 
 
 
@@ -24,7 +29,7 @@ you find the Placeholder Folder at
 
 Rename the File in to the zip Folder. ->
 
-"RTM.LPR90.Pink.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png" to "cd-black.png" etc..
+"xyz.png" to "cd-black.png" etc..
 
 greetings
 
