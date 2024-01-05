@@ -22,14 +22,7 @@ but they do it for me.
 # Placeholder for Georgia-ReBORN Theme "Skin"
 
 
-
-you find the Placeholder Folder at
-
-"profile/georgia-reborn/images/discart"
-
-Rename the File in to the zip Folder. ->
-
-"xyz.png" to "cd-black.png" etc..
+in progress...
 
 greetings
 
