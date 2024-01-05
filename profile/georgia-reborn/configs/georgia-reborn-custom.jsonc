@@ -179,30 +179,30 @@
 		"cdStub11": "", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
 		"cdName11": "", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
 		"cdStub11": "", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
-		"vinylName01": "Custom Vinyl - Name 01", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
-		"vinylStub01": "vinyl-custom01.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
-		"vinylName02": "Custom Vinyl - Name 02", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
-		"vinylStub02": "", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
-		"vinylName03": "Custom Vinyl - Name 03", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
-		"vinylStub03": "", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
-		"vinylName04": "Custom Vinyl - Name 04", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
-		"vinylStub04": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
-		"vinylName05": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
-		"vinylStub05": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
-		"vinylName06": "Custom Vinyl - Name 01", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
-		"vinylStub06": "vinyl-custom01.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
-		"vinylName07": "Custom Vinyl - Name 02", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
-		"vinylStub07": "", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
-		"vinylName08": "Custom Vinyl - Name 03", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
-		"vinylStub08": "", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
-		"vinylName09": "Custom Vinyl - Name 04", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
-		"vinylStub09": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
-		"vinylName10": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
-		"vinylStub10": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
-		"vinylName11": "Custom Vinyl - Name 04", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
-		"vinylStub11": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
-		"vinylName12": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
-		"vinylStub12": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"vinylName01": "Vinyl.Black", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
+		"vinylStub01": "Black.Blured-Logo+Centerpin.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
+		"vinylName02": "Vinyl.Blue", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
+		"vinylStub02": "Blue.Blured-Logo+Centerpin.png", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
+		"vinylName03": "Vinyl.Brown", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
+		"vinylStub03": "Brown.Blured-Logo+Centerpin.png", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
+		"vinylName04": "Vinyl.Gold", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub04": "Gold.Blured-Logo+Centerpin.png", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName05": "Vinyl.Green", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub05": "Green.Blured-Logo+Centerpin.png" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"vinylName06": "Vinyl.Purple", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
+		"vinylStub06": "Purple.Blured-Logo+Centerpin.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
+		"vinylName07": "Vinyl.Red", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
+		"vinylStub07": "Red.Blured-Logo+Centerpin.png", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
+		"vinylName08": "Vinyl.Rosé", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
+		"vinylStub08": "Rosé.1.Blured-Logo+Centerpin.png", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
+		"vinylName09": "Vinyl.Rosé.II", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub09": "Rosé.2.Blured-Logo+Centerpin.png", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName10": "Vinyl.Violet", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub10": "Violet.Blured-Logo+Centerpin.png" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"vinylName11": "Vinyl.White", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub11": "White.Blured-Logo+Centerpin.png", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName12": "Vinyl.Splatter.White", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub12": "Splatter.White.Blured-Logo+Centerpin.png" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
 	},
 
 	"customTheme01": {
