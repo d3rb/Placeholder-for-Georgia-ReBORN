@@ -155,16 +155,30 @@
 		// * The custom disc art placeholders are located in the directory "georgia-reborn/images/custom/discart".
 		// * Note: These settings will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
 		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"cdName01": "Custom CD - Name 01", // Value: the name of the first CD placeholder, e.g. Custom CD - Name 01
-		"cdStub01": "cd-custom01.png", // Value: the filename of the first CD placeholder, e.g. cd-custom01.png
-		"cdName02": "Custom CD - Name 02", // Value: the name of the second CD placeholder, e.g. Custom CD - Name 02
-		"cdStub02": "", // Value: the filename of the second CD placeholder, e.g. cd-custom02.png
-		"cdName03": "Custom CD - Name 03", // Value: the name of the third CD placeholder, e.g. Custom CD - Name 03
-		"cdStub03": "", // Value: the filename of the third CD placeholder, e.g. cd-custom03.png
-		"cdName04": "Custom CD - Name 04", // Value: the name of the fourth CD placeholder, e.g. Custom CD - Name 04
-		"cdStub04": "", // Value: the filename of the fourth CD placeholder, e.g. cd-custom04.png
-		"cdName05": "Custom CD - Name 05", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
-		"cdStub05": "", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
+		"cdName01": "Airbrush.R2R.Freddy", // Value: the name of the first CD placeholder, e.g. Custom CD - Name 01
+		"cdStub01": "Airbrush.R2R.Freddy.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the first CD placeholder, e.g. cd-custom01.png
+		"cdName02": "Airbrush.R2R.Manga", // Value: the name of the second CD placeholder, e.g. Custom CD - Name 02
+		"cdStub02": "Airbrush.R2R.Manga.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the second CD placeholder, e.g. cd-custom02.png
+		"cdName03": "Airbrush.R2R.Orange", // Value: the name of the third CD placeholder, e.g. Custom CD - Name 03
+		"cdStub03": "Airbrush.R2R.Orange.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the third CD placeholder, e.g. cd-custom03.png
+		"cdName04": "Airbrush.R2R.Universe", // Value: the name of the fourth CD placeholder, e.g. Custom CD - Name 04
+		"cdStub04": "Airbrush.R2R.Planet.1.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the fourth CD placeholder, e.g. cd-custom04.png
+		"cdName05": "Airbrush.R2R.Planet", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
+		"cdStub05": "Airbrush.R2R.Planet.2.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
+		"cdName06": "Airbrush.R2R.doomsday", // Value: the name of the first CD placeholder, e.g. Custom CD - Name 01
+		"cdStub06": "Airbrush.R2R.Planet.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the first CD placeholder, e.g. cd-custom01.png
+		"cdName07": "Airbrush.R2R.Storm", // Value: the name of the second CD placeholder, e.g. Custom CD - Name 02
+		"cdStub07": "Airbrush.R2R.Storm.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the second CD placeholder, e.g. cd-custom02.png
+		"cdName08": "RTM.LPR90.Stock", // Value: the name of the third CD placeholder, e.g. Custom CD - Name 03
+		"cdStub08": "RTM.LPR90.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png", // Value: the filename of the third CD placeholder, e.g. cd-custom03.png
+		"cdName09": "RTM.LPR90.Pink", // Value: the name of the fourth CD placeholder, e.g. Custom CD - Name 04
+		"cdStub09": "RTM.LPR90.Pink.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png", // Value: the filename of the fourth CD placeholder, e.g. cd-custom04.png
+		"cdName10": "RTM.SM900.Stock", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
+		"cdStub10": "RTM.SM900.Grey.SHADOW-Logo.NAB-Big.Centered.Clean.Surface.png", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
+		"cdName11": "", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
+		"cdStub11": "", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
+		"cdName11": "", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
+		"cdStub11": "", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
 		"vinylName01": "Custom Vinyl - Name 01", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
 		"vinylStub01": "vinyl-custom01.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
 		"vinylName02": "Custom Vinyl - Name 02", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
@@ -175,6 +189,20 @@
 		"vinylStub04": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
 		"vinylName05": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
 		"vinylStub05": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"vinylName06": "Custom Vinyl - Name 01", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
+		"vinylStub06": "vinyl-custom01.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
+		"vinylName07": "Custom Vinyl - Name 02", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
+		"vinylStub07": "", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
+		"vinylName08": "Custom Vinyl - Name 03", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
+		"vinylStub08": "", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
+		"vinylName09": "Custom Vinyl - Name 04", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub09": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName10": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub10": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"vinylName11": "Custom Vinyl - Name 04", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub11": "", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName12": "Custom Vinyl - Name 05", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub12": "" // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
 	},
 
 	"customTheme01": {
