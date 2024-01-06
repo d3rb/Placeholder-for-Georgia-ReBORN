@@ -11,18 +11,27 @@
 ![New Airbrushed Reels Wallpaper](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/103460b0-1135-48d5-a7be-ce01bf10775e)
 
 
+# Placeholder for Georgia-ReBORN Theme "Skin"
+
+
+how to use:
+
+Download the zip folder, unpack it, and copy the "profiles" folder into your Foobar root directory. -> "where the Georgia-ReBORN theme is also located"
+
+I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl Placeholder from my own collection or templates.
+
+The Pink.Colors theme: matches with RTM.LPR90.Pink and SONY.Pink.EMPTY and Vinyl.Rosé.1
+
+Orange.Dream theme: matches with Airbrush.R2R.Orange
+
+Planet.Freddie theme: matches with Airbrush.R2R.Freddy and Airbrush.R2R.Planet and Airbrush.R2R.Universe
+
 
 "All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
 I've never used Photoshop before, so some may find my placeholders not perfect,
 but they do it for me.
 
-
-
-# Placeholder for Georgia-ReBORN Theme "Skin"
-
-
-in progress...
 
 greetings
 
