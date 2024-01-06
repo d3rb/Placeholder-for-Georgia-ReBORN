@@ -14,11 +14,7 @@
 # Placeholder for Georgia-ReBORN Theme "Skin"
 
 
-how to use:
-
-Download the zip folder, unpack it, and copy the "profiles" folder into your Foobar root directory. -> "where the Georgia-ReBORN theme is also located"
-
-I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl Placeholder from my own collection or templates.
+I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl Placeholders.
 
 Recommendation:
 
@@ -29,9 +25,23 @@ Recommendation:
 > Planet.Freddie theme: matches with "Airbrush.R2R.Freddy" and "Airbrush.R2R.Planet" and "Airbrush.R2R.Universe"
 
 
+how to use:
+
+Download the zip folder, unpack it, and copy the "profiles" folder into your Foobar root directory. -> "where the Georgia-ReBORN theme is also located"
+
+you can set the custom placeholder via -> Details options menu -> Disc art placeholder -> and set what like :)
+
+you can manually edit "georgia-reborn-custom.jsonc" if you like.
+
+
+File location:
+
+> "profile/georgia-reborn/configs/georgia-reborn-custom.jsonc"
+
+
 "All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
-I've never used Photoshop before, so some may find my placeholders not perfect,
+I've never used Photoshop before, so my placeholders are not perfect,
 but they do it for me.
 
 
