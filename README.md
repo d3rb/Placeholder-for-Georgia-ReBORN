@@ -32,9 +32,9 @@ I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl
 
 Download the zip folder, unpack it, and copy the "profiles" folder into your Foobar root directory. -> "where the Georgia-ReBORN theme is also located"
 
-you can set the custom placeholder via -> Details options menu -> Disc art placeholder -> and set what like :)
+· you can set the custom placeholder via -> Details options menu -> Disc art placeholder -> and set what like :)
 
-you can manually edit "georgia-reborn-custom.jsonc" if you like.
+· you can manually edit "georgia-reborn-custom.jsonc" if you like.
 
 
 ## File location:
