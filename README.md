@@ -10,6 +10,12 @@
 
 ![New Airbrushed Reels Wallpaper](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/103460b0-1135-48d5-a7be-ce01bf10775e)
 
+![Pink Colors](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/f748e960-1500-473b-9a39-374a29578864)
+
+![Planet Freddie](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/ae9ca6b4-03dc-4fcd-8095-2a2c50702609)
+
+![Orange Dream](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/41569e23-7ac6-41cd-8fa5-39988cfd9c27)
+
 
 # Placeholder for Georgia-ReBORN Theme "Skin"
 
