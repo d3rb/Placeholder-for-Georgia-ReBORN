@@ -20,11 +20,13 @@ Download the zip folder, unpack it, and copy the "profiles" folder into your Foo
 
 I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl Placeholder from my own collection or templates.
 
-The Pink.Colors theme: matches with RTM.LPR90.Pink and SONY.Pink.EMPTY and Vinyl.Rosé.1
+Recommendation:
 
-Orange.Dream theme: matches with Airbrush.R2R.Orange
+> The Pink.Colors theme: matches with "RTM.LPR90.Pink" and "SONY.Pink.EMPTY" and "Vinyl.Rosé.1"
 
-Planet.Freddie theme: matches with Airbrush.R2R.Freddy and Airbrush.R2R.Planet and Airbrush.R2R.Universe
+> Orange.Dream theme: matches with "Airbrush.R2R.Orange"
+
+> Planet.Freddie theme: matches with "Airbrush.R2R.Freddy" and "Airbrush.R2R.Planet" and "Airbrush.R2R.Universe"
 
 
 "All vinyls and tape reels are my own property.
