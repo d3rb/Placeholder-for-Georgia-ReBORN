@@ -48,7 +48,7 @@ I've never used Photoshop before, so my placeholders are not perfect,
 but i like it a bit. ;D
 
 
-· Future plans: do some things better :)
+>Future plans: do some things better :)<
 
 greetings
 
