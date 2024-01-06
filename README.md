@@ -17,7 +17,8 @@
 I added "three" custom themes and "twelve" Reel to Reel Tapes and "twelve" Vinyl Placeholders.
 
 
-Recommendation:
+
+## Recommendation:
 
 > The Pink.Colors theme: The best matches with "RTM.LPR90.Pink" and "SONY.Pink.EMPTY" and "Vinyl.Rosé.1"
 
@@ -26,7 +27,8 @@ Recommendation:
 > Planet.Freddie theme: The best matches with "Airbrush.R2R.Freddy" and "Airbrush.R2R.Planet" and "Airbrush.R2R.Universe"
 
 
-how to use:
+
+## how to use:
 
 Download the zip folder, unpack it, and copy the "profiles" folder into your Foobar root directory. -> "where the Georgia-ReBORN theme is also located"
 
@@ -35,7 +37,7 @@ you can set the custom placeholder via -> Details options menu -> Disc art place
 you can manually edit "georgia-reborn-custom.jsonc" if you like.
 
 
-File location:
+## File location:
 
 > "profile/georgia-reborn/configs/georgia-reborn-custom.jsonc"
 
