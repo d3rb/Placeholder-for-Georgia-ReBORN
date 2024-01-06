@@ -42,7 +42,7 @@ File location:
 "All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
 I've never used Photoshop before, so my placeholders are not perfect,
-but they do it for me.
+but i like it a bit. ;D
 
 
 greetings
