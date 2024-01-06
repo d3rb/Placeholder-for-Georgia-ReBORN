@@ -41,7 +41,7 @@ Download the zip folder, unpack it, and copy the "profiles" folder into your Foo
 
 > "profile/georgia-reborn/configs/georgia-reborn-custom.jsonc"
 
-
+>Notes:
 "All vinyls and tape reels are my own property.
 They were photographed and edited in Photoshop.
 I've never used Photoshop before, so my placeholders are not perfect,
