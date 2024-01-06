@@ -1,0 +1,1897 @@
+/////////////////////////////////////////////////////////////////////////////
+// * Georgia-ReBORN: A Clean, Full Dynamic Color Reborn foobar2000 Theme * //
+// * Description:    Georgia-ReBORN Configuration File                   * //
+// * Author:         TT                                                  * //
+// * Org. Author:    Mordred                                             * //
+// * Website:        https://github.com/TT-ReBORN/Georgia-ReBORN         * //
+// *                                                                     * //
+// * Manual changes to this file will take effect on the next reload.    * //
+// * To ensure changes are not overwritten or lost, reload the theme     * //
+// * immediately after manually changing values.                         * //
+/////////////////////////////////////////////////////////////////////////////
+
+
+{
+/////////////////////////////////////////////////////////////////////////////
+	"configVersion": "3.0-DEV",
+/////////////////////////////////////////////////////////////////////////////
+
+
+	"customLibraryDir": [
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM LIBRARY DIRECTORY:
+		// * You can set your own custom library directory.
+		// * Replace the path below and activate in top menu Options > Settings > Theme cache > Library > Use custom library directory. Restart foobar to take effect.
+		// * Note: This setting will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"C:\\Replace_this_path_to_your_new_library\\Directory\\"
+	],
+
+	"customBiographyDir": [
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM BIOGRAPHY DIRECTORY:
+		// * You can set your own custom biography directory.
+		// * Replace the path below and activate in top menu Options > Settings > Theme cache > Library > Use custom biography directory. Restart foobar to take effect.
+		// * Note: This setting will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"C:\\Replace_this_path_to_your_new_biography\\Directory\\"
+	],
+
+	"customLyricsDir": [
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM LYRICS DIRECTORY:
+		// * You can set your own custom lyric directory.
+		// * Change in foobar's Preferences > ESLyric > Lyric options > Location to your custom lyric folder and replace the path below.
+		// * Activate in top menu Options > Settings > Theme cache > Lyrics > Use custom lyrics directory. Restart foobar to take effect.
+		// * Note: This setting will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"C:\\Replace_this_path_to_your_new_lyrics\\Directory\\"
+	],
+
+	"customWaveformBarDir": [
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM WAVEFORM BAR DIRECTORY:
+		// * You can set your own custom waveform bar directory.
+		// * Replace the path below and activate in top menu Options > Settings > Theme cache > Waveform bar > Use custom waveform bar directory. Restart foobar to take effect.
+		// * Note: This setting will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"C:\\Replace_this_path_to_your_new_waveform\\Directory\\"
+	],
+
+	"customFont": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME FONTS:
+		// * Top menu Options > Settings > Theme fonts > Use custom theme fonts
+		// * Here you can set your own custom fonts if top menu Options > Settings > Theme fonts > Use custom theme fonts was activated.
+		// * If you change the Open Sans placeholder, it needs to be the exact name of the font name/family.
+		// * Note: If you mix different fonts all together, there will be issues with Y-alignment because fonts have different line heights than others.
+		// * For example, if you want to use more than one font in the lower bar, the fonts need to have the same line height.
+		// * Note: These settings will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"fontDefault": "Open Sans", // Default font: Segoe UI - panel font used as default and panel related elements in Playlist, Library, Biography
+		"fontTopMenu": "Open Sans SemiBold", // Default font: Segoe UI Semibold - theme font used for top menu buttons
+		"fontLowerBarArtist": "Open Sans SemiBold", // Default font: HelveticaNeueLT Pro 65 Md - theme artist font used in lower bar
+		"fontLowerBarTitle": "Open Sans", // Default font: HelveticaNeueLT Pro 45 Lt - theme title font used in lower bar
+		"fontLowerBarDisc": "Open Sans", // Default font: HelveticaNeueLT Pro 45 Lt - theme disc font used in lower bar
+		"fontLowerBarTime": "Open Sans SemiBold", // Default font: HelveticaNeueLT Pro 65 Md - theme time font used in lower bar
+		"fontLowerBarLength": "Open Sans", // Default font: HelveticaNeueLT Pro 45 Lt - theme length font used in lower bar
+		"fontLowerBarWave": "Open Sans SemiBold", // Default font: HelveticaNeueLT Pro 65 Md - theme waveform bar font used in lower bar
+		"fontNotification": "Open Sans", // Default font: HelveticaNeueLT Pro 65 Md - theme notification font used in jump search and style indicator
+		"fontPopup": "Open Sans", // Default font: Segoe UI - theme popup font used in custom theme menu and theme log overlay
+		"fontTooltip": "Open Sans", // Default font: HelveticaNeueLT Pro 65 Md - theme tooltip font used in styled tooltips
+		"fontGridArtist": "Open Sans", // Default font: HelveticaNeueLT Pro 65 Md - theme artist font used in metadata grid ( Details )
+		"fontGridTitle": "Open Sans", // Default font: HelveticaNeueLT Pro 45 Lt - theme title font used in metadata grid ( Details )
+		"fontGridTitleBold": "Open Sans SemiBold", // Default font: HelveticaNeueLT Pro 65 Md - theme title bold font used in metadata grid ( Details )
+		"fontGridAlbum": "Open Sans", // Default font: HelveticaNeueLT Pro 65 Md - theme album font used in metadata grid ( Details )
+		"fontGridKey": "Open Sans SemiBold", // Default font: HelveticaNeueLT Pro 55 Roman - theme key font used in metadata grid ( Details )
+		"fontGridValue": "Open Sans", // Default font: HelveticaNeueLT Pro 45 Lt - theme value font used in metadata grid ( Details )
+		"playlistTitleNormal": "Open Sans", // Default font: Segoe UI - playlist title font used in rows, normal state
+		"playlistTitleSelected": "Open Sans", // Default font: Segoe UI - playlist title font used in rows, selected state
+		"playlistTitlePlaying": "Open Sans SemiBold", // Default font: Segoe UI - playlist title font used in rows, playing state
+		"playlistArtistNormal": "Open Sans", // Default font: Segoe UI Semibold - playlist artist font used in headers, normal state
+		"playlistArtistPlaying": "Open Sans", // Default font: Segoe UI Semibold - playlist artist font used in headers, playing state
+		"playlistArtistNormalCompact": "Open Sans SemiBold", // Default font: Segoe UI Semibold - playlist artist font for compact mode used in headers, normal state
+		"playlistArtistPlayingCompact": "Open Sans SemiBold", // Default font: Segoe UI Semibold - playlist artist font for compact mode used in headers, playing state
+		"playlistAlbum": "Open Sans SemiBold", // Default font: Segoe UI Semibold - playlist album font used in headers
+		"playlistDate": "Open Sans SemiBold", // Default font: Segoe UI Semibold - playlist date font used in headers
+		"playlistDateCompact": "Open Sans", // Default font: Segoe UI Semibold - playlist date font for compact mode used in headers
+		"playlistInfo": "Open Sans", // Default font: Segoe UI - playlist info font used in headers
+		"playlistCover": "Open Sans", // Default font: Segoe UI Semibold - playlist cover font used in thumbnails
+		"playlistPlaycount": "Open Sans", // Default font: Segoe UI - playlist playcount font used in rows
+		"fontLibrary": "Open Sans", // Default font: Segoe UI - library font
+		"fontBiography": "Open Sans", // Default font: Segoe UI - biography font
+		"fontLyrics": "Open Sans" // Default font: Segoe UI - lyrics font
+	},
+
+	"customStylePreset": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM STYLE PRESET:
+		// * Top menu Options > Preset > User preset > User settings
+		// * You can set your own custom style preset if top menu Options > Preset > User preset > User settings is selected.
+		// * First you need to set only one theme in theme: and set the theme to true, all other themes need to be set to false.
+		// * Second, only one style per column can be set, see top menu Options > Style. For example, only Blend or Blend 2 can be active at the same time.
+		// * It is the same for Alternative or Alternative 2 or if this particular column has an additional special style, see comment in styles section.
+		// * Best practice would be to first set each style in top menu Options > Style, note these styles and modify them in the config here.
+		// * If something goes wrong, you can reset your theme settings in top menu Options > Settings > Theme configuration > Reset all
+		// * Note: These settings will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"theme": "white", // Values: "white", "black", "reborn", "random", "blue", "darkblue", "red", "cream", "nblue", "ngreen", "nred", "ngold"
+		"nighttime": false, // Values: true, false - special style can only be used with reborn, random, custom theme
+		"bevel": false, // Values: true, false - can be used in all themes
+		"blend": false, // Values: true, false - can be used in all themes
+		"blend2": false, // Values: true, false - can be used in all themes
+		"gradient": false, // Values: true, false - can only be used with reborn, random, blue, darkblue, red theme
+		"gradient2": false, // Values: true, false - can only be used with reborn, random, blue, darkblue, red theme
+		"alternative": false, // Values: true, false - can be used in all themes but not with special styles
+		"alternative2": false, // Values: true, false - can be used in all themes but not with special styles
+		"blackAndWhite": false, // Values: true, false - special white style can only be used with white theme
+		"blackAndWhite2": false, // Values: true, false - special white style can only be used with white theme
+		"blackAndWhiteReborn": false, // Values: true, false - special white style can only be used with white theme
+		"blackReborn": false, // Values: true, false - special black style can only be used with black theme
+		"rebornWhite": false, // Values: true, false - special reborn style can only be used with reborn theme
+		"rebornBlack": false, // Values: true, false - special reborn style can only be used with reborn theme
+		"randomPastel": false, // Values: true, false - special random style can only be used with random theme
+		"randomDark": false, // Values: true, false - special random style can only be used with random theme
+		"randomAutoColor": "off", // Values: "off", 5000, 10000, 15000, 30000, 45000, 60000, 120000, 180000, 240000, 300000, "track", - can only be used with random theme
+		"topMenuButtons": "default", // Values: "default", "filled", "bevel", "inner", "emboss", "minimal"
+		"transportButtons": "default", // Values: "default", "bevel", "inner", "emboss", "minimal"
+		"progressBarDesign": "default", // Values: "default", "rounded", "lines", "blocks", "dots", "thin"
+		"progressBar": "default", // Values: "default", "bevel", "inner"
+		"progressBarFill": "default", // Values: "default", "bevel", "inner", "blend"
+		"volumeBarDesign": "default", // Values: "default", "rounded"
+		"volumeBar": "default", // Values: "default", "bevel", "inner"
+		"volumeBarFill": "default", // Values: "default", "bevel", "inner"
+		"themeBrightness": "default" // Values: -50, -40, -30, -25, -20, -15, -10, -5, "default", 5, 10, 15, 20, 25, 30, 40, 50
+	},
+
+	"customDiscArtStub": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM DISC ART PLACEHOLDER:
+		// * Top menu Options > Details > Disc art > Disc art placeholder
+		// * You can add your own custom CD and Vinyl placeholders that will be dynamically appended to the disc art placeholder menu.
+		// * It is recommended to use the predefined prefix naming convention for CD and Vinyl placeholders, such as "Custom CD - YourName" or "Custom Vinyl - YourName".
+		// * The filenames must end with .png, for example, "cd-custom01.png" or "vinyl-custom01.png".
+		// * If the placeholders cdStub02, cdStub03, cdStub04, cdStub05, vinylStub02, vinylStub03, vinylStub04, vinylStub05 etc, do not have any filename values, they will not be added to the menu.
+		// * The custom disc art placeholders are located in the directory "georgia-reborn/images/custom/discart".
+		// * Note: These settings will NOT be automatically set if you use top menu Options > Settings > Theme configuration > Save settings to config file
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"cdName01": "Airbrush.R2R.Freddy", // Value: the name of the first CD placeholder, e.g. Custom CD - Name 01
+		"cdStub01": "Airbrush.R2R.Freddy.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the first CD placeholder, e.g. cd-custom01.png
+		"cdName02": "Airbrush.R2R.Manga", // Value: the name of the second CD placeholder, e.g. Custom CD - Name 02
+		"cdStub02": "Airbrush.R2R.Manga.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the second CD placeholder, e.g. cd-custom02.png
+		"cdName03": "Airbrush.R2R.Orange", // Value: the name of the third CD placeholder, e.g. Custom CD - Name 03
+		"cdStub03": "Airbrush.R2R.Orange.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the third CD placeholder, e.g. cd-custom03.png
+		"cdName04": "Airbrush.R2R.Planet", // Value: the name of the fourth CD placeholder, e.g. Custom CD - Name 04
+		"cdStub04": "Airbrush.R2R.Planet.1.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the fourth CD placeholder, e.g. cd-custom04.png
+		"cdName05": "Airbrush.R2R.Universe", // Value: the name of the fifth CD placeholder, e.g. Custom CD - Name 05
+		"cdStub05": "Airbrush.R2R.Planet.2.Logo+NAB-Big.New.Ring.Shadowed.png", // Value: the filename of the fifth CD placeholder, e.g. cd-custom05.png
+		"vinylName01": "Vinyl.Black", // Value: the name of the first vinyl placeholder, e.g. Custom vinyl - Name 01
+		"vinylStub01": "Black.Blured-Logo+Centerpin.png", // Value: the filename of the first vinyl placeholder, e.g. vinyl-custom01.png
+		"vinylName02": "Vinyl.Blue", // Value: the name of the second vinyl placeholder, e.g. Custom vinyl - Name 02
+		"vinylStub02": "Blue.Blured-Logo+Centerpin.png", // Value: the filename of the second vinyl placeholder, e.g. vinyl-custom02.png
+		"vinylName03": "Vinyl.Brown", // Value: the name of the third vinyl placeholder, e.g. Custom vinyl - Name 03
+		"vinylStub03": "Brown.Blured-Logo+Centerpin.png", // Value: the filename of the third vinyl placeholder, e.g. vinyl-custom03.png
+		"vinylName04": "Vinyl.Gold", // Value: the name of the fourth vinyl placeholder, e.g. Custom vinyl - Name 04
+		"vinylStub04": "Gold.Blured-Logo+Centerpin.png", // Value: the filename of the fourth vinyl placeholder, e.g. vinyl-custom04.png
+		"vinylName05": "Vinyl.Green", // Value: the name of the fifth vinyl placeholder, e.g. Custom vinyl - Name 05
+		"vinylStub05": "Green.Blured-Logo+Centerpin.png", // Value: the filename of the fifth vinyl placeholder, e.g. vinyl-custom05.png
+		"cdName06": "Airbrush.R2R.Apokalypse",
+		"cdStub06": "Airbrush.R2R.Planet.Logo+NAB-Big.New.Ring.Shadowed.png",
+		"cdName07": "Airbrush.R2R.Storm",
+		"cdStub07": "Airbrush.R2R.Storm.Logo+NAB-Big.New.Ring.Shadowed.png",
+		"cdName08": "RTM.LPR90.Pink",
+		"cdStub08": "RTM.LPR90.Pink.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png",
+		"cdName09": "RTM.LPR90.Stock",
+		"cdStub09": "RTM.LPR90.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png",
+		"cdName10": "RTM.SM900.Blue",
+		"cdStub10": "RTM.SM900.Blue.SHADOW-Logo.NAB-Big.Centered.Clean.Surface.png",
+		"cdName11": "SONY.Pink.EMPTY",
+		"cdStub11": "SONY.Pink.EMPTY.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png",
+		"cdName12": "SONY.EMPTY.Stock",
+		"cdStub12": "SONY.EMPTY.SHADOW-Logo.NAB-Big.Centered.Org.Surface.png",
+		"vinylName06": "Vinyl.Purple",
+		"vinylStub06": "Purple.Blured-Logo+Centerpin.png",
+		"vinylName07": "Vinyl.Red",
+		"vinylStub07": "Red.Blured-Logo+Centerpin.png",
+		"vinylName08": "Vinyl.Rosé.I",
+		"vinylStub08": "Rosé.1.Blured-Logo+Centerpin.png",
+		"vinylName09": "Vinyl.Rosé.II",
+		"vinylStub09": "Rosé.2.Blured-Logo+Centerpin.png",
+		"vinylName10": "Vinyl.Violet",
+		"vinylStub10": "Violet.Blured-Logo+Centerpin.png",
+		"vinylName11": "vinyl.White",
+		"vinylStub11": "White.Blured-Logo+Centerpin.png",
+		"vinylName12": "Vinyl.White.Splatter",
+		"vinylStub12": "Splatter.White.Blured-Logo+Centerpin.png"
+	},
+
+	"customTheme01": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 01:
+		// * Top menu Options > Theme > Custom > Theme 01
+		// * This is the first custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "System.Colors", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "171717", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "black-dusk-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "ffffff", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "171717", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "e65353", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "000000", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "000000", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "171717", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "171717", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "000000", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "000000", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "171717", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "171717", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "e65353", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "e65353", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "e6e6e6", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "e6e6e6", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "e6e6e6", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "e65353", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "000000", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "000000", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "171717", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "171717", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "000000", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "e65353", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "e6e6e6", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "e65353", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "e65353", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "e65353", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "e65353", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "e65353", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "e6e6e6", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "e65353", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "ffc800", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "e65353", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "171717", // Library main background color
+		"ui_col_rowStripes": "171717", // Library row stripes background color
+		"ui_col_nowPlayingBg": "171717", // Library row now playing bg color
+		"ui_col_sideMarker": "e65353", // Library row side marker color
+		"ui_col_selectionFrame": "171717", // Library row selection frame color
+		"ui_col_selectionFrame2": "171717", // Library row selection frame color 2
+		"ui_col_hoverFrame": "000000", // Library row hover frame color
+		"ui_col_iconPlus": "ffc800", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "e65353", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "e65353", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "e6e6e6", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "e65353", // Library row now playing text color
+		"ui_col_textSel": "e65353", // Library row text color in selected state
+		"ui_col_txt": "d2d2d2", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "e65353", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "000000", // Library line color
+		"ui_col_s_line": "000000", // Library line color when selected
+		"ui_col_sbarBtns": "e6e6e6", // Library scrollbar button color
+		"ui_col_sbarNormal": "e65353", // Library scrollbar normal color
+		"ui_col_sbarHovered": "e65353", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "e65353", // Library scrollbar drag color
+		"uiBio_col_bg": "171717", // Biography main background color
+		"uiBio_col_rowStripes": "171717", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "000000", // Biography header bottom line color
+		"uiBio_col_centerLine": "000000", // Biography header center line color
+		"uiBio_col_sectionLine": "e65353", // Biography header section line color
+		"uiBio_col_accent": "e65353", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "e6e6e6", // Biography source text color
+		"uiBio_col_summary": "e6e6e6", // Biography summary text color
+		"uiBio_col_text": "e6e6e6", // Biography text color
+		"uiBio_col_lyricsNormal": "e6e6e6", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "e65353", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "e65353", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "e65353", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "e6e6e6", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "e65353", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "e65353", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "e65353", // Biography scrollbar thumb drag color
+		"col_bg": "171717", // Main background color
+		"col_shadow": "171717", // Panel shadow color
+		"col_discArtShadow": "171717", // Disc art shadow color
+		"col_noAlbumArtStub": "e65353", // No album art stub color
+		"col_lowerBarArtist": "e65353", // Lower bar artist text color
+		"col_lowerBarTitle": "dcdcdc", // Lower bar title text color
+		"col_lowerBarTime": "e6e6e6", // Lower bar playback time text color
+		"col_lowerBarLength": "dcdcdc", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "e65353", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "171717", // Details background color
+		"col_detailsText": "e6e6e6", // Details text color
+		"col_detailsRating": "e65353", // Details rating color
+		"col_timelineAdded": "e65353", // Details timeline added color
+		"col_timelinePlayed": "171717", // Details timeline played color
+		"col_timelineUnplayed": "000000", // Details timeline unplayed color
+		"col_timelineFrame": "000000", // Details timeline frame color
+		"col_popupBg": "171717", // Popup background color
+		"col_popupText": "e6e6e6", // Popup text color
+		"col_menuBgColor": "171717", // Top menu background color
+		"col_menuStyleBg": "000000", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "171717", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "000000", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "000000", // Top menu rectangle color
+		"col_menuRectHovered": "171717", // Top menu rectangle color when hovered
+		"col_menuRectDown": "000000", // Top menu rectangle color when down
+		"col_menuTextNormal": "ffffff", // Top menu text color
+		"col_menuTextHovered": "e65353", // Top menu text color when hovered
+		"col_menuTextDown": "e65353", // Top menu text color when down
+		"col_transportEllipseBg": "171717", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "000000", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "e65353", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "e65353", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "000000", // Lower bar transport style background color
+		"col_transportStyleTop": "000000", // Lower bar transport style top color
+		"col_transportStyleBottom": "000000", // Lower bar transport style bottom color
+		"col_transportIconNormal": "e65353", // Lower bar transport icon color
+		"col_transportIconHovered": "e65353", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "e65353", // Lower bar transport icon color when down
+		"col_progressBar": "171717", // Progress bar color
+		"col_progressBarStreaming": "e65353", // Progress bar when streaming color
+		"col_progressBarFrame": "000000", // Progress bar frame color
+		"col_progressBarFill": "e65353", // Progress bar fill color
+		"col_peakmeterBarProg": "191919", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "e65353", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "ffc800", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "ffb43c", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "eb9664", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "e63728", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "e63728", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "ffc800", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "e65353", // Waveform bar front fill color
+		"col_waveformBarFillBack": "e65353", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "737373", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "4d4d4d", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "c8c8c8", // Waveform bar progress indicator color
+		"col_volumeBar": "171717", // Volume bar color
+		"col_volumeBarFrame": "000000", // Volume bar frame color
+		"col_volumeBarFill": "e65353", // Volume bar fill color
+		"col_styleBevel": "171717", // Style bevel color
+		"col_styleGradient": "171717", // Style gradient color
+		"col_styleGradient2": "e65353", // Style gradient 2 color
+		"col_styleProgressBar": "000000", // Style progress bar color
+		"col_styleProgressBarLineTop": "000000", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "000000", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "e65353", // Style progress bar fill color
+		"col_styleVolumeBar": "000000", // Style volume bar color
+		"col_styleVolumeBarFill": "e65353" // Style volume bar fill color
+	},
+
+	"customTheme02": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 02:
+		// * Top menu Options > Theme > Custom > Theme 02
+		// * This is the second custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Orange.Dream", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "372355", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "violet-play-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "ffffff", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "412d64", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "ebc841", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "372355", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "372355", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "505056", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "e6e6e6", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "e6e6e6", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "5a5a62", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "ff3c00", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "d2d2d2", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "ff3c00", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "e6e6e6", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "e6e6e6", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "e6e6e6", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "ffffff", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "64646c", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "323238", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "5a5a62", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "5a5a62", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "64646c", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "ff3c00", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "d2d2d2", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ff3c00", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "ff3c00", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "64646c", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "dcdcdc", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "ffffff", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "d2d2d2", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ff3c00", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "5f5f69", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "ff3c00", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "ff3c00", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "505056", // Library main background color
+		"ui_col_rowStripes": "5a5a62", // Library row stripes background color
+		"ui_col_nowPlayingBg": "5a5a62", // Library row now playing bg color
+		"ui_col_sideMarker": "ff3c00", // Library row side marker color
+		"ui_col_selectionFrame": "64646c", // Library row selection frame color
+		"ui_col_selectionFrame2": "64646c", // Library row selection frame color 2
+		"ui_col_hoverFrame": "5a5a62", // Library row hover frame color
+		"ui_col_iconPlus": "ffffff", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "e6e6e6", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "ffffff", // Library row now playing text color
+		"ui_col_textSel": "ff3c00", // Library row text color in selected state
+		"ui_col_txt": "e6e6e6", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "64646c", // Library line color
+		"ui_col_s_line": "64646c", // Library line color when selected
+		"ui_col_sbarBtns": "d2d2d2", // Library scrollbar button color
+		"ui_col_sbarNormal": "5f5f69", // Library scrollbar normal color
+		"ui_col_sbarHovered": "ffffff", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "ff3c00", // Library scrollbar drag color
+		"uiBio_col_bg": "505056", // Biography main background color
+		"uiBio_col_rowStripes": "5a5a62", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "64646c", // Biography header bottom line color
+		"uiBio_col_centerLine": "64646c", // Biography header center line color
+		"uiBio_col_sectionLine": "64646c", // Biography header section line color
+		"uiBio_col_accent": "ff3c00", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "e6e6e6", // Biography source text color
+		"uiBio_col_summary": "e6e6e6", // Biography summary text color
+		"uiBio_col_text": "e6e6e6", // Biography text color
+		"uiBio_col_lyricsNormal": "e6e6e6", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "ff3c00", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "5a5a62", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "ff3c00", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "d2d2d2", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "5f5f69", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "ff3c00", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "ff3c00", // Biography scrollbar thumb drag color
+		"col_bg": "5a5a62", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "ff3c00", // No album art stub color
+		"col_lowerBarArtist": "ff3c00", // Lower bar artist text color
+		"col_lowerBarTitle": "ffffff", // Lower bar title text color
+		"col_lowerBarTime": "ffffff", // Lower bar playback time text color
+		"col_lowerBarLength": "ff3c00", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "ff3c00", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "505056", // Details background color
+		"col_detailsText": "d2d2d2", // Details text color
+		"col_detailsRating": "ff3c00", // Details rating color
+		"col_timelineAdded": "ff3c00", // Details timeline added color
+		"col_timelinePlayed": "ff3c00", // Details timeline played color
+		"col_timelineUnplayed": "ff3c00", // Details timeline unplayed color
+		"col_timelineFrame": "505056", // Details timeline frame color
+		"col_popupBg": "5a5a62", // Popup background color
+		"col_popupText": "d2d2d2", // Popup text color
+		"col_menuBgColor": "505056", // Top menu background color
+		"col_menuStyleBg": "323238", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "7d7d87", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "151515", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "323238", // Top menu rectangle color
+		"col_menuRectHovered": "323238", // Top menu rectangle color when hovered
+		"col_menuRectDown": "323238", // Top menu rectangle color when down
+		"col_menuTextNormal": "ffffff", // Top menu text color
+		"col_menuTextHovered": "ff3c00", // Top menu text color when hovered
+		"col_menuTextDown": "ff3c00", // Top menu text color when down
+		"col_transportEllipseBg": "505056", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "323238", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "ff3c00", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "323238", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "414146", // Lower bar transport style background color
+		"col_transportStyleTop": "646464", // Lower bar transport style top color
+		"col_transportStyleBottom": "18181c", // Lower bar transport style bottom color
+		"col_transportIconNormal": "dcdcdc", // Lower bar transport icon color
+		"col_transportIconHovered": "ff3c00", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ff3c00", // Lower bar transport icon color when down
+		"col_progressBar": "505056", // Progress bar color
+		"col_progressBarStreaming": "ff3c00", // Progress bar when streaming color
+		"col_progressBarFrame": "5a5a62", // Progress bar frame color
+		"col_progressBarFill": "ff3c00", // Progress bar fill color
+		"col_peakmeterBarProg": "505056", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "e6e6e6", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "ff3c00", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "ff3c00", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "ff3c00", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "ff3c00", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "ff3c00", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "dcdcdc", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "ff3c00", // Waveform bar front fill color
+		"col_waveformBarFillBack": "ff3c00", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "b9b9c8", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "888894", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "ffffff", // Waveform bar progress indicator color
+		"col_volumeBar": "505056", // Volume bar color
+		"col_volumeBarFrame": "ff3c00", // Volume bar frame color
+		"col_volumeBarFill": "ff3c00", // Volume bar fill color
+		"col_styleBevel": "37373c", // Style bevel color
+		"col_styleGradient": "37373c", // Style gradient color
+		"col_styleGradient2": "8c8c96", // Style gradient 2 color
+		"col_styleProgressBar": "424246", // Style progress bar color
+		"col_styleProgressBarLineTop": "3e3e42", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "696973", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "ff3c00", // Style progress bar fill color
+		"col_styleVolumeBar": "3e3e42", // Style volume bar color
+		"col_styleVolumeBarFill": "ff3c00" // Style volume bar fill color
+	},
+
+	"customTheme03": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 03:
+		// * Top menu Options > Theme > Custom > Theme 03
+		// * This is the third custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Planet.Pink", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "372355", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "violet-play-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "ffffff", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "412d64", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "ebc841", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "372355", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "372355", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "252525", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "b9108e", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "252525", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "b9108e", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "ebebeb", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "b9108e", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "ebebeb", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "ebebeb", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "b9108e", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "ffffff", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "b9108e", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "b9108e", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "252525", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "252525", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "b9108e", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "b9108e", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "ebebeb", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "b9108e", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "252525", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "252525", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "ffffff", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "ebebeb", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "252525", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "b9108e", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "ffffff", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "252525", // Library main background color
+		"ui_col_rowStripes": "b9108e", // Library row stripes background color
+		"ui_col_nowPlayingBg": "ffffff", // Library row now playing bg color
+		"ui_col_sideMarker": "b9108e", // Library row side marker color
+		"ui_col_selectionFrame": "b9108e", // Library row selection frame color
+		"ui_col_selectionFrame2": "b9108e", // Library row selection frame color 2
+		"ui_col_hoverFrame": "b9108e", // Library row hover frame color
+		"ui_col_iconPlus": "b9108e", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "ffffff", // Library row text color
+		"ui_col_text_h": "b9108e", // Library row text color in hovered state
+		"ui_col_text_nowp": "b9108e", // Library row now playing text color
+		"ui_col_textSel": "b9108e", // Library row text color in selected state
+		"ui_col_txt": "ebebeb", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "b9108e", // Library line color
+		"ui_col_s_line": "b9108e", // Library line color when selected
+		"ui_col_sbarBtns": "ebebeb", // Library scrollbar button color
+		"ui_col_sbarNormal": "b9108e", // Library scrollbar normal color
+		"ui_col_sbarHovered": "a5fffa", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "b9108e", // Library scrollbar drag color
+		"uiBio_col_bg": "252525", // Biography main background color
+		"uiBio_col_rowStripes": "b9108e", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "b9108e", // Biography header bottom line color
+		"uiBio_col_centerLine": "b9108e", // Biography header center line color
+		"uiBio_col_sectionLine": "b9108e", // Biography header section line color
+		"uiBio_col_accent": "ffff96", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "ebebeb", // Biography source text color
+		"uiBio_col_summary": "ebebeb", // Biography summary text color
+		"uiBio_col_text": "ebebeb", // Biography text color
+		"uiBio_col_lyricsNormal": "ebebeb", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "b9108e", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "b9108e", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "ffff96", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "ebebeb", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "b9108e", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "b9108e", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "ebebeb", // Biography scrollbar thumb drag color
+		"col_bg": "252525", // Main background color
+		"col_shadow": "252525", // Panel shadow color
+		"col_discArtShadow": "252525", // Disc art shadow color
+		"col_noAlbumArtStub": "252525", // No album art stub color
+		"col_lowerBarArtist": "b9108e", // Lower bar artist text color
+		"col_lowerBarTitle": "b9108e", // Lower bar title text color
+		"col_lowerBarTime": "b9108e", // Lower bar playback time text color
+		"col_lowerBarLength": "b9108e", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "b9108e", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "252525", // Details background color
+		"col_detailsText": "ebebeb", // Details text color
+		"col_detailsRating": "b9108e", // Details rating color
+		"col_timelineAdded": "252525", // Details timeline added color
+		"col_timelinePlayed": "b9108e", // Details timeline played color
+		"col_timelineUnplayed": "b9108e", // Details timeline unplayed color
+		"col_timelineFrame": "b9108e", // Details timeline frame color
+		"col_popupBg": "252525", // Popup background color
+		"col_popupText": "ebebeb", // Popup text color
+		"col_menuBgColor": "ffffff", // Top menu background color
+		"col_menuStyleBg": "ffffff", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "252525", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "d827a9", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "252525", // Top menu rectangle color
+		"col_menuRectHovered": "252525", // Top menu rectangle color when hovered
+		"col_menuRectDown": "252525", // Top menu rectangle color when down
+		"col_menuTextNormal": "ffffff", // Top menu text color
+		"col_menuTextHovered": "ffffff", // Top menu text color when hovered
+		"col_menuTextDown": "d827a9", // Top menu text color when down
+		"col_transportEllipseBg": "252525", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "d827a9", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "252525", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "d827a9", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "d827a9", // Lower bar transport style background color
+		"col_transportStyleTop": "d827a9", // Lower bar transport style top color
+		"col_transportStyleBottom": "d827a9", // Lower bar transport style bottom color
+		"col_transportIconNormal": "ffffff", // Lower bar transport icon color
+		"col_transportIconHovered": "252525", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ffffff", // Lower bar transport icon color when down
+		"col_progressBar": "252525", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "b9108e", // Progress bar frame color
+		"col_progressBarFill": "ffffff", // Progress bar fill color
+		"col_peakmeterBarProg": "b9108e", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "b9108e", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "b9108e", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "b9108e", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "b9108e", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "b9108e", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "b9108e", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "b9108e", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "b9108e", // Waveform bar front fill color
+		"col_waveformBarFillBack": "b9108e", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "b9108e", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "b9108e", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "b9108e", // Waveform bar progress indicator color
+		"col_volumeBar": "252525", // Volume bar color
+		"col_volumeBarFrame": "b9108e", // Volume bar frame color
+		"col_volumeBarFill": "ffffff", // Volume bar fill color
+		"col_styleBevel": "237378", // Style bevel color
+		"col_styleGradient": "237378", // Style gradient color
+		"col_styleGradient2": "237378", // Style gradient 2 color
+		"col_styleProgressBar": "d827a9", // Style progress bar color
+		"col_styleProgressBarLineTop": "23787d", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "4bb4b4", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "d827a9", // Style progress bar fill color
+		"col_styleVolumeBar": "23787d", // Style volume bar color
+		"col_styleVolumeBarFill": "d827a9" // Style volume bar fill color
+	},
+
+	"customTheme04": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 04:
+		// * Top menu Options > Theme > Custom > Theme 04
+		// * This is the fourth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Arctic pearl", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "dce6eb", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "arctic-pearl-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "0f3741", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "f5f5f5", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "2391a5", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "dce6eb", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "dce6eb", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "1e8296", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "e6e6e6", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "2391a5", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "dce6eb", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "e6e6e6", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "ffffff", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "e6e6e6", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "e6e6e6", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "e6e6e6", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "ffffff", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "145f6e", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "145f6e", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "2391a5", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "2391a5", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "145f6e", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "dce6eb", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "e6e6e6", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "ebc841", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "145f6e", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "145f6e", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "dce6eb", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "dce6eb", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "2396aa", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "dce6eb", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "dce6eb", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "1e8296", // Library main background color
+		"ui_col_rowStripes": "2391a5", // Library row stripes background color
+		"ui_col_nowPlayingBg": "2391a5", // Library row now playing bg color
+		"ui_col_sideMarker": "dce6eb", // Library row side marker color
+		"ui_col_selectionFrame": "145f6e", // Library row selection frame color
+		"ui_col_selectionFrame2": "145f6e", // Library row selection frame color 2
+		"ui_col_hoverFrame": "145f6e", // Library row hover frame color
+		"ui_col_iconPlus": "e6e6e6", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "e6e6e6", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "ffffff", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "e6e6e6", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "145f6e", // Library line color
+		"ui_col_s_line": "145f6e", // Library line color when selected
+		"ui_col_sbarBtns": "dce6eb", // Library scrollbar button color
+		"ui_col_sbarNormal": "2396aa", // Library scrollbar normal color
+		"ui_col_sbarHovered": "dce6eb", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "dce6eb", // Library scrollbar drag color
+		"uiBio_col_bg": "1e8296", // Biography main background color
+		"uiBio_col_rowStripes": "2391a5", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "145f6e", // Biography header bottom line color
+		"uiBio_col_centerLine": "145f6e", // Biography header center line color
+		"uiBio_col_sectionLine": "145f6e", // Biography header section line color
+		"uiBio_col_accent": "ebc841", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "e6e6e6", // Biography source text color
+		"uiBio_col_summary": "e6e6e6", // Biography summary text color
+		"uiBio_col_text": "e6e6e6", // Biography text color
+		"uiBio_col_lyricsNormal": "e6e6e6", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "ebc841", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "2391a5", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "dce6eb", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "dce6eb", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "2396aa", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "dce6eb", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "dce6eb", // Biography scrollbar thumb drag color
+		"col_bg": "dce6eb", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "dce6eb", // No album art stub color
+		"col_lowerBarArtist": "0f3741", // Lower bar artist text color
+		"col_lowerBarTitle": "0f3741", // Lower bar title text color
+		"col_lowerBarTime": "0f3741", // Lower bar playback time text color
+		"col_lowerBarLength": "0f3741", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "ebc841", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "1e8296", // Details background color
+		"col_detailsText": "e6e6e6", // Details text color
+		"col_detailsRating": "ebc841", // Details rating color
+		"col_timelineAdded": "dce6eb", // Details timeline added color
+		"col_timelinePlayed": "b9cdd2", // Details timeline played color
+		"col_timelineUnplayed": "9bb4b9", // Details timeline unplayed color
+		"col_timelineFrame": "1e8296", // Details timeline frame color
+		"col_popupBg": "dce6eb", // Popup background color
+		"col_popupText": "0f3741", // Popup text color
+		"col_menuBgColor": "f0f0f0", // Top menu background color
+		"col_menuStyleBg": "cdd7dc", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "ffffff", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "b4bec3", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "b4bec3", // Top menu rectangle color
+		"col_menuRectHovered": "ffffff", // Top menu rectangle color when hovered
+		"col_menuRectDown": "ffffff", // Top menu rectangle color when down
+		"col_menuTextNormal": "0f3741", // Top menu text color
+		"col_menuTextHovered": "000000", // Top menu text color when hovered
+		"col_menuTextDown": "000000", // Top menu text color when down
+		"col_transportEllipseBg": "f5f5f5", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "dce6eb", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "ffffff", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "dce6eb", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "c8c8c8", // Lower bar transport style background color
+		"col_transportStyleTop": "ffffff", // Lower bar transport style top color
+		"col_transportStyleBottom": "b4b4b4", // Lower bar transport style bottom color
+		"col_transportIconNormal": "19505a", // Lower bar transport icon color
+		"col_transportIconHovered": "000000", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "000000", // Lower bar transport icon color when down
+		"col_progressBar": "f5f5f5", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "dce6eb", // Progress bar frame color
+		"col_progressBarFill": "2391a5", // Progress bar fill color
+		"col_peakmeterBarProg": "f5f5f5", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "19505a", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "28aabe", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "2391a5", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "1e8296", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "2391a5", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "2391a5", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "2dbed7", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "2391a5", // Waveform bar front fill color
+		"col_waveformBarFillBack": "196473", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "aaafb4", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "82878c", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "051419", // Waveform bar progress indicator color
+		"col_volumeBar": "f5f5f5", // Volume bar color
+		"col_volumeBarFrame": "dce6eb", // Volume bar frame color
+		"col_volumeBarFill": "2391a5", // Volume bar fill color
+		"col_styleBevel": "a0b4b9", // Style bevel color
+		"col_styleGradient": "aabec3", // Style gradient color
+		"col_styleGradient2": "aabec3", // Style gradient 2 color
+		"col_styleProgressBar": "cddce1", // Style progress bar color
+		"col_styleProgressBarLineTop": "c3cdd2", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "f0f0f0", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "2391a5", // Style progress bar fill color
+		"col_styleVolumeBar": "b0ced4", // Style volume bar color
+		"col_styleVolumeBarFill": "197382" // Style volume bar fill color
+	},
+
+	"customTheme05": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 05:
+		// * Top menu Options > Theme > Custom > Theme 05
+		// * This is the fifth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Pink noise", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "f0e6f0", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "pink-noise-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "323232", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "f5f5f5", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "e15087", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "f0e6f0", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "f0e6f0", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "e15087", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "f6e8f2", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "f0e6f0", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "64ffdc", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "f6e8f2", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "323232", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "f6e8f2", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "323232", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "f6e8f2", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "323232", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "f6e8f2", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "323232", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "a53764", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "323232", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "f0e6f0", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "f05591", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "a53764", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "64ffe1", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "f6e8f2", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "323232", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "ffff32", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "a53764", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "f0e6f0", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "64ffdc", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "f0e6f0", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffff32", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "f0e6f0", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "64ffdc", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "ffff32", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "e15087", // Library main background color
+		"ui_col_rowStripes": "f05591", // Library row stripes background color
+		"ui_col_nowPlayingBg": "f0e6f0", // Library row now playing bg color
+		"ui_col_sideMarker": "64ffdc", // Library row side marker color
+		"ui_col_selectionFrame": "a53764", // Library row selection frame color
+		"ui_col_selectionFrame2": "a53764", // Library row selection frame color 2
+		"ui_col_hoverFrame": "64ffdc", // Library row hover frame color
+		"ui_col_iconPlus": "64ffdc", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "f6e8f2", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "323232", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "f6e8f2", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "a53764", // Library line color
+		"ui_col_s_line": "a53764", // Library line color when selected
+		"ui_col_sbarBtns": "f0e6f0", // Library scrollbar button color
+		"ui_col_sbarNormal": "f0e6f0", // Library scrollbar normal color
+		"ui_col_sbarHovered": "64ffdc", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "ffff32", // Library scrollbar drag color
+		"uiBio_col_bg": "e15087", // Biography main background color
+		"uiBio_col_rowStripes": "f05591", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "a53764", // Biography header bottom line color
+		"uiBio_col_centerLine": "a53764", // Biography header center line color
+		"uiBio_col_sectionLine": "a53764", // Biography header section line color
+		"uiBio_col_accent": "64ffdc", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "f6e8f2", // Biography source text color
+		"uiBio_col_summary": "f6e8f2", // Biography summary text color
+		"uiBio_col_text": "f6e8f2", // Biography text color
+		"uiBio_col_lyricsNormal": "f6e8f2", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "64ffdc", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "f05591", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "64ffdc", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "f0e6f0", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "f0e6f0", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "64ffdc", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "ffff32", // Biography scrollbar thumb drag color
+		"col_bg": "f0e6f0", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "64ffdc", // No album art stub color
+		"col_lowerBarArtist": "323232", // Lower bar artist text color
+		"col_lowerBarTitle": "323232", // Lower bar title text color
+		"col_lowerBarTime": "323232", // Lower bar playback time text color
+		"col_lowerBarLength": "323232", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "64ffdc", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "e15087", // Details background color
+		"col_detailsText": "f6e8f2", // Details text color
+		"col_detailsRating": "ffff32", // Details rating color
+		"col_timelineAdded": "64ffdc", // Details timeline added color
+		"col_timelinePlayed": "55d7be", // Details timeline played color
+		"col_timelineUnplayed": "46b49b", // Details timeline unplayed color
+		"col_timelineFrame": "e15087", // Details timeline frame color
+		"col_popupBg": "f0e6f0", // Popup background color
+		"col_popupText": "323232", // Popup text color
+		"col_menuBgColor": "eeeeee", // Top menu background color
+		"col_menuStyleBg": "dcd2dc", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "ffffff", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "c8bec8", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "c8bec8", // Top menu rectangle color
+		"col_menuRectHovered": "c8bec8", // Top menu rectangle color when hovered
+		"col_menuRectDown": "c8bec8", // Top menu rectangle color when down
+		"col_menuTextNormal": "323232", // Top menu text color
+		"col_menuTextHovered": "000000", // Top menu text color when hovered
+		"col_menuTextDown": "000000", // Top menu text color when down
+		"col_transportEllipseBg": "f5f5f5", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "e6dae2", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "ffffff", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "e6dae2", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "c8c8c8", // Lower bar transport style background color
+		"col_transportStyleTop": "ffffff", // Lower bar transport style top color
+		"col_transportStyleBottom": "b4b4b4", // Lower bar transport style bottom color
+		"col_transportIconNormal": "505050", // Lower bar transport icon color
+		"col_transportIconHovered": "000000", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "000000", // Lower bar transport icon color when down
+		"col_progressBar": "f5f5f5", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "f0e6f0", // Progress bar frame color
+		"col_progressBarFill": "e15087", // Progress bar fill color
+		"col_peakmeterBarProg": "f5f5f5", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "e15087", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "2de6b9", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "55d7be", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "46b49b", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "e15087", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "e15087", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "ff8cb9", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "e15087", // Waveform bar front fill color
+		"col_waveformBarFillBack": "af3c69", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "b4aab4", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "8c828c", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "141414", // Waveform bar progress indicator color
+		"col_volumeBar": "f5f5f5", // Volume bar color
+		"col_volumeBarFrame": "f0e6f0", // Volume bar frame color
+		"col_volumeBarFill": "e15087", // Volume bar fill color
+		"col_styleBevel": "b9aab4", // Style bevel color
+		"col_styleGradient": "c8b9c3", // Style gradient color
+		"col_styleGradient2": "c8b9c3", // Style gradient 2 color
+		"col_styleProgressBar": "e6dce1", // Style progress bar color
+		"col_styleProgressBarLineTop": "d7cdd2", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "fff2fc", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "b93264", // Style progress bar fill color
+		"col_styleVolumeBar": "d2c8cd", // Style volume bar color
+		"col_styleVolumeBarFill": "b93264" // Style volume bar fill color
+	},
+
+	"customTheme06": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 06:
+		// * Top menu Options > Theme > Custom > Theme 06
+		// * This is the sixth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Golden snow", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "ebebe1", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "golden-snow-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "3c3c3c", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "f5f5f5", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "f0b43c", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "ebebe1", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "ebebe1", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "f5b93c", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "3c3c3c", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "000000", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "000000", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "ffc328", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "ebebe1", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "3c3c3c", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "005aa0", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "3c3c3c", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "141414", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "3c3c3c", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "141414", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "3c3c3c", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "005aa0", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "d7d7d7", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "d7d7d7", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "ffc328", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "ffc328", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "d7d7d7", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "ebebe1", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "464646", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "003c78", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "000000", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "000000", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "ebebe1", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "d7d7d7", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "ebebe1", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "005aa0", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "3c3c3c", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "ffcd3c", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "ebebe1", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "ebebe1", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "f5b93c", // Library main background color
+		"ui_col_rowStripes": "ffc328", // Library row stripes background color
+		"ui_col_nowPlayingBg": "ffc328", // Library row now playing bg color
+		"ui_col_sideMarker": "ebebe1", // Library row side marker color
+		"ui_col_selectionFrame": "d7d7d7", // Library row selection frame color
+		"ui_col_selectionFrame2": "d7d7d7", // Library row selection frame color 2
+		"ui_col_hoverFrame": "ffc328", // Library row hover frame color
+		"ui_col_iconPlus": "464646", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "005aa0", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "005aa0", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "464646", // Library row text color
+		"ui_col_text_h": "000000", // Library row text color in hovered state
+		"ui_col_text_nowp": "005aa0", // Library row now playing text color
+		"ui_col_textSel": "000000", // Library row text color in selected state
+		"ui_col_txt": "464646", // Library user interface text color
+		"ui_col_txt_h": "000000", // Library user interface text color in hovered state
+		"ui_col_txt_box": "363636", // Library user interface text box color
+		"ui_col_search": "363636", // Library search text color
+		"ui_col_searchBtn": "3c3c3c", // Library search button color
+		"ui_col_crossBtn": "3c3c3c", // Library cross button color
+		"ui_col_filterBtn": "3c3c3c", // Library filter button color
+		"ui_col_settingsBtn": "3c3c3c", // Library settings button color
+		"ui_col_line": "d7d7d7", // Library line color
+		"ui_col_s_line": "d7d7d7", // Library line color when selected
+		"ui_col_sbarBtns": "3c3c3c", // Library scrollbar button color
+		"ui_col_sbarNormal": "ffcd3c", // Library scrollbar normal color
+		"ui_col_sbarHovered": "ebebeb", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "ebebeb", // Library scrollbar drag color
+		"uiBio_col_bg": "f5b93c", // Biography main background color
+		"uiBio_col_rowStripes": "ffc328", // Biography row stripes background color
+		"uiBio_col_headingText": "005aa0", // Biography header text color
+		"uiBio_col_bottomLine": "d7d7d7", // Biography header bottom line color
+		"uiBio_col_centerLine": "d7d7d7", // Biography header center line color
+		"uiBio_col_sectionLine": "d7d7d7", // Biography header section line color
+		"uiBio_col_accent": "ebc841", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "3c3c3c", // Biography source text color
+		"uiBio_col_summary": "3c3c3c", // Biography summary text color
+		"uiBio_col_text": "3c3c3c", // Biography text color
+		"uiBio_col_lyricsNormal": "3c3c3c", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "005aa0", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "ffc328", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "ebebe1", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "3c3c3c", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "ffcd3c", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "ebebe1", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "ebebe1", // Biography scrollbar thumb drag color
+		"col_bg": "ebebe1", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "ebebe1", // No album art stub color
+		"col_lowerBarArtist": "005aa0", // Lower bar artist text color
+		"col_lowerBarTitle": "3c3c3c", // Lower bar title text color
+		"col_lowerBarTime": "3c3c3c", // Lower bar playback time text color
+		"col_lowerBarLength": "005aa0", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "ebc841", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "f5b93c", // Details background color
+		"col_detailsText": "3c3c3c", // Details text color
+		"col_detailsRating": "ebebe1", // Details rating color
+		"col_timelineAdded": "ebebe1", // Details timeline added color
+		"col_timelinePlayed": "d2d2d2", // Details timeline played color
+		"col_timelineUnplayed": "b9b9b9", // Details timeline unplayed color
+		"col_timelineFrame": "f5b93c", // Details timeline frame color
+		"col_popupBg": "ebebe1", // Popup background color
+		"col_popupText": "3c3c3c", // Popup text color
+		"col_menuBgColor": "faf5eb", // Top menu background color
+		"col_menuStyleBg": "d7d7cd", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "ffffff", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "c8c8be", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "ffffff", // Top menu rectangle color
+		"col_menuRectHovered": "ffffff", // Top menu rectangle color when hovered
+		"col_menuRectDown": "ffffff", // Top menu rectangle color when down
+		"col_menuTextNormal": "3c3c3c", // Top menu text color
+		"col_menuTextHovered": "005aa0", // Top menu text color when hovered
+		"col_menuTextDown": "005aa0", // Top menu text color when down
+		"col_transportEllipseBg": "f5f5f5", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "e6e4da", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "ffffff", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "e6e4da", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "bebebe", // Lower bar transport style background color
+		"col_transportStyleTop": "ffffff", // Lower bar transport style top color
+		"col_transportStyleBottom": "bebebe", // Lower bar transport style bottom color
+		"col_transportIconNormal": "464646", // Lower bar transport icon color
+		"col_transportIconHovered": "005aa0", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "005aa0", // Lower bar transport icon color when down
+		"col_progressBar": "f5f5f5", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "ebebe1", // Progress bar frame color
+		"col_progressBarFill": "f0b43c", // Progress bar fill color
+		"col_peakmeterBarProg": "f5f5f5", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "005aa0", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "ffc328", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "f5b93c", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "cd9628", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "f0b43c", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "f0b43c", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "cd9b32", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "f0b43c", // Waveform bar front fill color
+		"col_waveformBarFillBack": "be8c2d", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "b4b4aa", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "8c8c82", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "ffffff", // Waveform bar progress indicator color
+		"col_volumeBar": "f5f5f5", // Volume bar color
+		"col_volumeBarFrame": "ebebe1", // Volume bar frame color
+		"col_volumeBarFill": "f0b43c", // Volume bar fill color
+		"col_styleBevel": "b9b4aa", // Style bevel color
+		"col_styleGradient": "c8c3b9", // Style gradient color
+		"col_styleGradient2": "c8c3b9", // Style gradient 2 color
+		"col_styleProgressBar": "e6e1d7", // Style progress bar color
+		"col_styleProgressBarLineTop": "dcd7cd", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "faf5eb", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "dca023", // Style progress bar fill color
+		"col_styleVolumeBar": "cdc8be", // Style volume bar color
+		"col_styleVolumeBarFill": "dca023" // Style volume bar fill color
+	},
+
+	"customTheme07": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 07:
+		// * Top menu Options > Theme > Custom > Theme 07
+		// * This is the seventh custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Brown amber", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "503c32", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "brown-amber-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "e6e6e6", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "32281e", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "be8737", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "503c32", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "503c32", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "af7d32", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "e6e6e6", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "be8737", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "e6c8aa", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "e6e6e6", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "ffffff", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "e6e6e6", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "e6e6e6", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "e6e6e6", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "ffffff", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "503c32", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "503c32", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "be8737", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "be8737", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "503c32", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "e6c8aa", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "e6e6e6", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "e6c8aa", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "503c32", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "503c32", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "e6c8aa", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "d2d2d2", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "c8913c", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "503c32", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "503c32", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "af7d32", // Library main background color
+		"ui_col_rowStripes": "be8737", // Library row stripes background color
+		"ui_col_nowPlayingBg": "be8737", // Library row now playing bg color
+		"ui_col_sideMarker": "e6c8aa", // Library row side marker color
+		"ui_col_selectionFrame": "503c32", // Library row selection frame color
+		"ui_col_selectionFrame2": "503c32", // Library row selection frame color 2
+		"ui_col_hoverFrame": "be8737", // Library row hover frame color
+		"ui_col_iconPlus": "e6c8aa", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "e6e6e6", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "ffffff", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "e6e6e6", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "503c32", // Library line color
+		"ui_col_s_line": "503c32", // Library line color when selected
+		"ui_col_sbarBtns": "d2d2d2", // Library scrollbar button color
+		"ui_col_sbarNormal": "c8913c", // Library scrollbar normal color
+		"ui_col_sbarHovered": "503c32", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "503c32", // Library scrollbar drag color
+		"uiBio_col_bg": "af7d32", // Biography main background color
+		"uiBio_col_rowStripes": "be8737", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "503c32", // Biography header bottom line color
+		"uiBio_col_centerLine": "503c32", // Biography header center line color
+		"uiBio_col_sectionLine": "503c32", // Biography header section line color
+		"uiBio_col_accent": "ffffff", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "e6e6e6", // Biography source text color
+		"uiBio_col_summary": "ffffff", // Biography summary text color
+		"uiBio_col_text": "e6e6e6", // Biography text color
+		"uiBio_col_lyricsNormal": "ffffff", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "e6c8aa", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "be8737", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "e6c8aa", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "d2d2d2", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "c8913c", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "503c32", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "503c32", // Biography scrollbar thumb drag color
+		"col_bg": "503c32", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "e6c8aa", // No album art stub color
+		"col_lowerBarArtist": "e6c8aa", // Lower bar artist text color
+		"col_lowerBarTitle": "e6e6e6", // Lower bar title text color
+		"col_lowerBarTime": "e6e6e6", // Lower bar playback time text color
+		"col_lowerBarLength": "e6e6e6", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "e6c8aa", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "af7d32", // Details background color
+		"col_detailsText": "e6e6e6", // Details text color
+		"col_detailsRating": "e6c8aa", // Details rating color
+		"col_timelineAdded": "32281e", // Details timeline added color
+		"col_timelinePlayed": "503c32", // Details timeline played color
+		"col_timelineUnplayed": "695041", // Details timeline unplayed color
+		"col_timelineFrame": "af7d32", // Details timeline frame color
+		"col_popupBg": "503c32", // Popup background color
+		"col_popupText": "e6e6e6", // Popup text color
+		"col_menuBgColor": "645046", // Top menu background color
+		"col_menuStyleBg": "32281e", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "8c6e5a", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "151515", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "000000", // Top menu rectangle color
+		"col_menuRectHovered": "000000", // Top menu rectangle color when hovered
+		"col_menuRectDown": "000000", // Top menu rectangle color when down
+		"col_menuTextNormal": "e6e6e6", // Top menu text color
+		"col_menuTextHovered": "ffffff", // Top menu text color when hovered
+		"col_menuTextDown": "ffffff", // Top menu text color when down
+		"col_transportEllipseBg": "32281e", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "000000", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "000000", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "32281e", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "32281e", // Lower bar transport style background color
+		"col_transportStyleTop": "695041", // Lower bar transport style top color
+		"col_transportStyleBottom": "000000", // Lower bar transport style bottom color
+		"col_transportIconNormal": "e6c8aa", // Lower bar transport icon color
+		"col_transportIconHovered": "ffffff", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ffffff", // Lower bar transport icon color when down
+		"col_progressBar": "32281e", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "503c32", // Progress bar frame color
+		"col_progressBarFill": "be8737", // Progress bar fill color
+		"col_peakmeterBarProg": "32281e", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "e6c8aa", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "be8737", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "e6a541", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "9b6e2d", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "be8737", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "be8737", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "e6c8aa", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "be8737", // Waveform bar front fill color
+		"col_waveformBarFillBack": "8c6428", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "b4876e", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "825f50", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "e6c8aa", // Waveform bar progress indicator color
+		"col_volumeBar": "32281e", // Volume bar color
+		"col_volumeBarFrame": "000000", // Volume bar frame color
+		"col_volumeBarFill": "be8737", // Volume bar fill color
+		"col_styleBevel": "2e221c", // Style bevel color
+		"col_styleGradient": "2e221c", // Style gradient color
+		"col_styleGradient2": "6e500a", // Style gradient 2 color
+		"col_styleProgressBar": "2d2319", // Style progress bar color
+		"col_styleProgressBarLineTop": "241612", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "5f4b3c", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "8c6914", // Style progress bar fill color
+		"col_styleVolumeBar": "2d2319", // Style volume bar color
+		"col_styleVolumeBarFill": "8c6914" // Style volume bar fill color
+	},
+
+	"customTheme08": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 08:
+		// * Top menu Options > Theme > Custom > Theme 08
+		// * This is the eighth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Walnut butter", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "463737", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "walnut-butter-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "dcdcdc", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "3c3030", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "bea550", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "463737", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "463737", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "412d2d", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "d2d2d2", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "bea550", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "463737", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "bea550", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "dcdcdc", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "bea550", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "dcdcdc", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "e6e6e6", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "dcdcdc", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "e6e6e6", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "dcdcdc", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "e6e6e6", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "1c1414", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "1c1414", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "463737", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "463737", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "1c1414", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "bea550", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "dcdcdc", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "bea550", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "1c1414", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "967878", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "bea550", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "d2d2d2", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "bea550", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "4b3c3c", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "bea550", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "bea550", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "402e2e", // Library main background color
+		"ui_col_rowStripes": "463737", // Library row stripes background color
+		"ui_col_nowPlayingBg": "463737", // Library row now playing bg color
+		"ui_col_sideMarker": "bea550", // Library row side marker color
+		"ui_col_selectionFrame": "1c1414", // Library row selection frame color
+		"ui_col_selectionFrame2": "1c1414", // Library row selection frame color 2
+		"ui_col_hoverFrame": "463737", // Library row hover frame color
+		"ui_col_iconPlus": "bea550", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "d2d2d2", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "ffffff", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "d2d2d2", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "1c1414", // Library line color
+		"ui_col_s_line": "1c1414", // Library line color when selected
+		"ui_col_sbarBtns": "d2d2d2", // Library scrollbar button color
+		"ui_col_sbarNormal": "4b3c3c", // Library scrollbar normal color
+		"ui_col_sbarHovered": "bea550", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "bea550", // Library scrollbar drag color
+		"uiBio_col_bg": "412d2d", // Biography main background color
+		"uiBio_col_rowStripes": "463737", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "1c1414", // Biography header bottom line color
+		"uiBio_col_centerLine": "1c1414", // Biography header center line color
+		"uiBio_col_sectionLine": "1c1414", // Biography header section line color
+		"uiBio_col_accent": "bea550", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "d2d2d2", // Biography source text color
+		"uiBio_col_summary": "d2d2d2", // Biography summary text color
+		"uiBio_col_text": "d2d2d2", // Biography text color
+		"uiBio_col_lyricsNormal": "d2d2d2", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "bea550", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "463737", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "bea550", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "d2d2d2", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "4b3c3c", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "bea550", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "bea550", // Biography scrollbar thumb drag color
+		"col_bg": "463737", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "bea550", // No album art stub color
+		"col_lowerBarArtist": "e6e6e6", // Lower bar artist text color
+		"col_lowerBarTitle": "dcdcdc", // Lower bar title text color
+		"col_lowerBarTime": "e6e6e6", // Lower bar playback time text color
+		"col_lowerBarLength": "dcdcdc", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "bea550", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "412d2d", // Details background color
+		"col_detailsText": "dcdcdc", // Details text color
+		"col_detailsRating": "bea550", // Details rating color
+		"col_timelineAdded": "bea550", // Details timeline added color
+		"col_timelinePlayed": "a59146", // Details timeline played color
+		"col_timelineUnplayed": "8c7d3c", // Details timeline unplayed color
+		"col_timelineFrame": "412d2d", // Details timeline frame color
+		"col_popupBg": "4b3c3c", // Popup background color
+		"col_popupText": "d2d2d2", // Popup text color
+		"col_menuBgColor": "5f4b4b", // Top menu background color
+		"col_menuStyleBg": "3c3030", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "786464", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "151515", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "1c1414", // Top menu rectangle color
+		"col_menuRectHovered": "1c1414", // Top menu rectangle color when hovered
+		"col_menuRectDown": "1c1414", // Top menu rectangle color when down
+		"col_menuTextNormal": "dcdcdc", // Top menu text color
+		"col_menuTextHovered": "bea550", // Top menu text color when hovered
+		"col_menuTextDown": "bea550", // Top menu text color when down
+		"col_transportEllipseBg": "3c3030", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "1c1414", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "000000", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "000000", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "2d2323", // Lower bar transport style background color
+		"col_transportStyleTop": "554141", // Lower bar transport style top color
+		"col_transportStyleBottom": "151515", // Lower bar transport style bottom color
+		"col_transportIconNormal": "dcdcdc", // Lower bar transport icon color
+		"col_transportIconHovered": "bea550", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ffffff", // Lower bar transport icon color when down
+		"col_progressBar": "3c3030", // Progress bar color
+		"col_progressBarStreaming": "bea550", // Progress bar when streaming color
+		"col_progressBarFrame": "463737", // Progress bar frame color
+		"col_progressBarFill": "bea550", // Progress bar fill color
+		"col_peakmeterBarProg": "3c3030", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "dcdcdc", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "bea550", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "a59146", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "8c7d3c", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "bea550", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "bea550", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "dcdcdc", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "bea550", // Waveform bar front fill color
+		"col_waveformBarFillBack": "8c783c", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "967878", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "645050", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "dcdcdc", // Waveform bar progress indicator color
+		"col_volumeBar": "372d2d", // Volume bar color
+		"col_volumeBarFrame": "1c1414", // Volume bar frame color
+		"col_volumeBarFill": "dcdcdc", // Volume bar fill color
+		"col_styleBevel": "2d1e1e", // Style bevel color
+		"col_styleGradient": "322323", // Style gradient color
+		"col_styleGradient2": "322323", // Style gradient 2 color
+		"col_styleProgressBar": "322323", // Style progress bar color
+		"col_styleProgressBarLineTop": "372d2d", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "554141", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "8c6914", // Style progress bar fill color
+		"col_styleVolumeBar": "322323", // Style volume bar color
+		"col_styleVolumeBarFill": "8c6914" // Style volume bar fill color
+	},
+
+	"customTheme09": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 09:
+		// * Top menu Options > Theme > Custom > Theme 09
+		// * This is the ninth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Dark desert", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "2d2832", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "dark-desert-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "e6e6e6", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "231e23", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "d7b48c", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "2d2832", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "2d2832", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "322832", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "d2d2d2", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "d7b48c", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "ffebc8", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "fad2a0", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "191419", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "d2d2d2", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "191419", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "d2d2d2", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "191419", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "d2d2d2", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "191419", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "191419", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "191419", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "d7b48c", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "2a232d", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "191419", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "ffebc8", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "d2d2d2", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "191419", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "fad2a0", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "fad2a0", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "191419", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "d7b48c", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "ffebc8", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "d2d2d2", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "d7b48c", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "231e23", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "d7b48c", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "d7b48c", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "322832", // Library main background color
+		"ui_col_rowStripes": "2a232d", // Library row stripes background color
+		"ui_col_nowPlayingBg": "d7b48c", // Library row now playing bg color
+		"ui_col_sideMarker": "ffebc8", // Library row side marker color
+		"ui_col_selectionFrame": "191419", // Library row selection frame color
+		"ui_col_selectionFrame2": "191419", // Library row selection frame color 2
+		"ui_col_hoverFrame": "d7b48c", // Library row hover frame color
+		"ui_col_iconPlus": "fad2a0", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "d2d2d2", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "191419", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "d2d2d2", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "191419", // Library line color
+		"ui_col_s_line": "191419", // Library line color when selected
+		"ui_col_sbarBtns": "d2d2d2", // Library scrollbar button color
+		"ui_col_sbarNormal": "231e23", // Library scrollbar normal color
+		"ui_col_sbarHovered": "d7b48c", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "d7b48c", // Library scrollbar drag color
+		"uiBio_col_bg": "322832", // Biography main background color
+		"uiBio_col_rowStripes": "2a232d", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "191419", // Biography header bottom line color
+		"uiBio_col_centerLine": "191419", // Biography header center line color
+		"uiBio_col_sectionLine": "191419", // Biography header section line color
+		"uiBio_col_accent": "fad2a0", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "d2d2d2", // Biography source text color
+		"uiBio_col_summary": "d2d2d2", // Biography summary text color
+		"uiBio_col_text": "d2d2d2", // Biography text color
+		"uiBio_col_lyricsNormal": "d2d2d2", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "fad2a0", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "2d2832", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "fad2a0", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "d2d2d2", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "231e23", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "d7b48c", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "d7b48c", // Biography scrollbar thumb drag color
+		"col_bg": "2d2832", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "fad2a0", // No album art stub color
+		"col_lowerBarArtist": "fad2a0", // Lower bar artist text color
+		"col_lowerBarTitle": "e6e6e6", // Lower bar title text color
+		"col_lowerBarTime": "fad2a0", // Lower bar playback time text color
+		"col_lowerBarLength": "e6e6e6", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "fad2a0", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "322832", // Details background color
+		"col_detailsText": "d2d2d2", // Details text color
+		"col_detailsRating": "fad2a0", // Details rating color
+		"col_timelineAdded": "d7b48c", // Details timeline added color
+		"col_timelinePlayed": "fad2a0", // Details timeline played color
+		"col_timelineUnplayed": "ffebc8", // Details timeline unplayed color
+		"col_timelineFrame": "322832", // Details timeline frame color
+		"col_popupBg": "2d2832", // Popup background color
+		"col_popupText": "d2d2d2", // Popup text color
+		"col_menuBgColor": "3c3746", // Top menu background color
+		"col_menuStyleBg": "231e28", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "555064", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "151515", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "000000", // Top menu rectangle color
+		"col_menuRectHovered": "000000", // Top menu rectangle color when hovered
+		"col_menuRectDown": "000000", // Top menu rectangle color when down
+		"col_menuTextNormal": "ffffff", // Top menu text color
+		"col_menuTextHovered": "fad2a0", // Top menu text color when hovered
+		"col_menuTextDown": "fad2a0", // Top menu text color when down
+		"col_transportEllipseBg": "231e23", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "000000", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "000000", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "000000", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "231e23", // Lower bar transport style background color
+		"col_transportStyleTop": "503c50", // Lower bar transport style top color
+		"col_transportStyleBottom": "151515", // Lower bar transport style bottom color
+		"col_transportIconNormal": "ffebc8", // Lower bar transport icon color
+		"col_transportIconHovered": "ffffff", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ffffff", // Lower bar transport icon color when down
+		"col_progressBar": "231e23", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "2d2832", // Progress bar frame color
+		"col_progressBarFill": "d7b48c", // Progress bar fill color
+		"col_peakmeterBarProg": "231e23", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "ffebc8", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "fad2a0", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "d7b48c", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "be9b73", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "d7b48c", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "d7b48c", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "ffebc8", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "ffebc8", // Waveform bar front fill color
+		"col_waveformBarFillBack": "d7b48c", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "736482", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "50465a", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "ffffff", // Waveform bar progress indicator color
+		"col_volumeBar": "231e23", // Volume bar color
+		"col_volumeBarFrame": "000000", // Volume bar frame color
+		"col_volumeBarFill": "d7b48c", // Volume bar fill color
+		"col_styleBevel": "1e1923", // Style bevel color
+		"col_styleGradient": "1e191e", // Style gradient color
+		"col_styleGradient2": "1e191e", // Style gradient 2 color
+		"col_styleProgressBar": "19141e", // Style progress bar color
+		"col_styleProgressBarLineTop": "000000", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "3c3741", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "aa8c69", // Style progress bar fill color
+		"col_styleVolumeBar": "19141e", // Style volume bar color
+		"col_styleVolumeBarFill": "aa8c69" // Style volume bar fill color
+	},
+
+	"customTheme10": {
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// * CUSTOM THEME 10:
+		// * Top menu Options > Theme > Custom > Theme 10
+		// * This is the tenth custom theme that contains all colors for Main, Playlist, Library, Biography.
+		// * Note: All colors will be automatically saved here if you do live editing with top menu Options > Theme > Custom > Edit custom theme
+		// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		"name": "Black dusk", // Custom theme name will be displayed in the options theme menu
+		"preloaderBg": "232323", // Preloader background color. If this value is empty, the default color will be used
+		"preloaderLogo": "black-dusk-logo.png", // Preloader logo must end with .png, for example, logo.png. If this value is empty, the default logo will be used
+		"preloaderLowerBarTitle": "dcdcdc", // Preloader lower bar title color. If this value is empty, the default color will be used
+		"preloaderProgressBar": "191919", // Preloader progress bar color. If this value is empty, the default color will be used
+		"preloaderProgressBarFill": "e63728", // Preloader progress bar fill color. If this value is empty, the default color will be used
+		"preloaderProgressBarFrame": "232323", // Preloader progress bar frame color. If this value is empty, the default color will be used
+		"preloaderUIHacksFrame": "232323", // Preloader UIHacks frame color. Should have the same color as preloaderBg. If this value is empty, the default color will be used
+		"g_pl_colors_bg": "cd3223", // Playlist main background color
+		"g_pl_colors_plman_text_normal": "e6e6e6", // Playlist manager text color in normal state
+		"g_pl_colors_plman_text_hovered": "ffffff", // Playlist manager text color in hovered state
+		"g_pl_colors_plman_text_pressed": "ffffff", // Playlist manager text color in pressed state
+		"g_pl_colors_header_nowplaying_bg": "e63728", // Playlist header nowplaying bg color
+		"g_pl_colors_header_sideMarker": "ffc800", // Playlist header side marker color
+		"g_pl_colors_header_artist_normal": "e6e6e6", // Playlist header artist text color in normal state
+		"g_pl_colors_header_artist_playing": "ffffff", // Playlist header artist text color in playing state
+		"g_pl_colors_header_album_normal": "e6e6e6", // Playlist header album text color in normal state
+		"g_pl_colors_header_album_playing": "ffffff", // Playlist header album text color in playing state
+		"g_pl_colors_header_info_normal": "e6e6e6", // Playlist header info text color in normal state
+		"g_pl_colors_header_info_playing": "ffffff", // Playlist header info text color in playing state
+		"g_pl_colors_header_date_normal": "e6e6e6", // Playlist header date text color in normal state
+		"g_pl_colors_header_date_playing": "ffffff", // Playlist header date text color in playing state
+		"g_pl_colors_header_line_normal": "641914", // Playlist header line color in normal state
+		"g_pl_colors_header_line_playing": "641914", // Playlist header line color in playing state
+		"g_pl_colors_row_nowplaying_bg": "e63728", // Playlist row nowplaying bg color
+		"g_pl_colors_row_stripes_bg": "e63728", // Playlist row alternate bg color
+		"g_pl_colors_row_selection_frame": "641914", // Playlist row selection frame color
+		"g_pl_colors_row_sideMarker": "ffc800", // Playlist row side marker color
+		"g_pl_colors_row_title_normal": "e6e6e6", // Playlist row title text color in normal state
+		"g_pl_colors_row_title_playing": "ffffff", // Playlist row title text color in playing state
+		"g_pl_colors_row_title_selected": "ffffff", // Playlist row title text color in selected state
+		"g_pl_colors_row_title_hovered": "ffffff", // Playlist row title text color in hovered state
+		"g_pl_colors_row_rating_color": "ffc800", // Playlist row rating color
+		"g_pl_colors_row_disc_subheader_line": "641914", // Playlist row disc sub header line color
+		"g_pl_colors_row_drag_line": "641914", // Playlist track reorder drag line color
+		"g_pl_colors_row_drag_line_reached": "ffc800", // Playlist track reorder reached drag line color
+		"g_pl_colors_sbar_btn_normal": "e6e6e6", // Playlist scrollbar button color in normal state
+		"g_pl_colors_sbar_btn_hovered": "ffffff", // Playlist scrollbar button color in hovered state
+		"g_pl_colors_sbar_thumb_normal": "eb3728", // Playlist scrollbar thumb color in normal state
+		"g_pl_colors_sbar_thumb_hovered": "ffc800", // Playlist scrollbar thumb color in hovered state
+		"g_pl_colors_sbar_thumb_drag": "ffc800", // Playlist scrollbar thumb color in dragged state
+		"ui_col_bg": "cd3223", // Library main background color
+		"ui_col_rowStripes": "e63728", // Library row stripes background color
+		"ui_col_nowPlayingBg": "e63728", // Library row now playing bg color
+		"ui_col_sideMarker": "ffc800", // Library row side marker color
+		"ui_col_selectionFrame": "641914", // Library row selection frame color
+		"ui_col_selectionFrame2": "641914", // Library row selection frame color 2
+		"ui_col_hoverFrame": "e63728", // Library row hover frame color
+		"ui_col_iconPlus": "ffc800", // Library tree plus node icon color
+		"ui_col_iconPlus_h": "ffffff", // Library tree plus node icon color in hovered state
+		"ui_col_iconPlus_sel": "ffffff", // Library tree plus node icon color in selected state
+		"ui_col_iconPlusBg": "372355", // Library tree plus node icon background color for traditional tree
+		"ui_col_iconMinus_e": "ebc841", // Library tree minus node icon color in expanded state for traditional tree
+		"ui_col_iconMinus_c": "ebc841", // Library tree minus node icon color in collapsed state for traditional tree
+		"ui_col_iconMinus_h": "ebc841", // Library tree minus node icon color in hovered state for traditional tree
+		"ui_col_text": "e6e6e6", // Library row text color
+		"ui_col_text_h": "ffffff", // Library row text color in hovered state
+		"ui_col_text_nowp": "ffffff", // Library row now playing text color
+		"ui_col_textSel": "ffffff", // Library row text color in selected state
+		"ui_col_txt": "d2d2d2", // Library user interface text color
+		"ui_col_txt_h": "ffffff", // Library user interface text color in hovered state
+		"ui_col_txt_box": "ffffff", // Library user interface text box color
+		"ui_col_search": "ffffff", // Library search text color
+		"ui_col_searchBtn": "ffffff", // Library search button color
+		"ui_col_crossBtn": "ffffff", // Library cross button color
+		"ui_col_filterBtn": "ffffff", // Library filter button color
+		"ui_col_settingsBtn": "ffffff", // Library settings button color
+		"ui_col_line": "641914", // Library line color
+		"ui_col_s_line": "641914", // Library line color when selected
+		"ui_col_sbarBtns": "e6e6e6", // Library scrollbar button color
+		"ui_col_sbarNormal": "eb3728", // Library scrollbar normal color
+		"ui_col_sbarHovered": "ffc800", // Library scrollbar hovered color
+		"ui_col_sbarDrag": "ffc800", // Library scrollbar drag color
+		"uiBio_col_bg": "cd3223", // Biography main background color
+		"uiBio_col_rowStripes": "e63728", // Biography row stripes background color
+		"uiBio_col_headingText": "ffffff", // Biography header text color
+		"uiBio_col_bottomLine": "641914", // Biography header bottom line color
+		"uiBio_col_centerLine": "641914", // Biography header center line color
+		"uiBio_col_sectionLine": "641914", // Biography header section line color
+		"uiBio_col_accent": "ffc800", // Biography accent text color (used in item properties)
+		"uiBio_col_source": "e6e6e6", // Biography source text color
+		"uiBio_col_summary": "e6e6e6", // Biography summary text color
+		"uiBio_col_text": "e6e6e6", // Biography text color
+		"uiBio_col_lyricsNormal": "e6e6e6", // Biography lyrics normal color
+		"uiBio_col_lyricsHighlight": "ffc800", // Biography lyrics highlight color
+		"uiBio_col_noPhotoStubBg": "e63728", // Biography no photo stub background color
+		"uiBio_col_noPhotoStubText": "ffc800", // Biography no photo stub text color
+		"uiBio_col_sbarBtns": "e6e6e6", // Biography scrollbar button color
+		"uiBio_col_sbarNormal": "eb3728", // Biography scrollbar thumb normal color
+		"uiBio_col_sbarHovered": "ffc800", // Biography scrollbar thumb hovered color
+		"uiBio_col_sbarDrag": "ffc800", // Biography scrollbar thumb drag color
+		"col_bg": "232323", // Main background color
+		"col_shadow": "000000", // Panel shadow color
+		"col_discArtShadow": "000000", // Disc art shadow color
+		"col_noAlbumArtStub": "ffc800", // No album art stub color
+		"col_lowerBarArtist": "e6e6e6", // Lower bar artist text color
+		"col_lowerBarTitle": "dcdcdc", // Lower bar title text color
+		"col_lowerBarTime": "e6e6e6", // Lower bar playback time text color
+		"col_lowerBarLength": "dcdcdc", // Lower bar playback length text color
+		"col_lyricsNormal": "ffffff", // Lyrics normal color
+		"col_lyricsHighlight": "ffc800", // Lyrics highlight color
+		"col_lyricsShadow": "000000", // Lyrics shadow color
+		"col_detailsBg": "cd3223", // Details background color
+		"col_detailsText": "e6e6e6", // Details text color
+		"col_detailsRating": "ffc800", // Details rating color
+		"col_timelineAdded": "ffc800", // Details timeline added color
+		"col_timelinePlayed": "ffb43c", // Details timeline played color
+		"col_timelineUnplayed": "eb9664", // Details timeline unplayed color
+		"col_timelineFrame": "cd3223", // Details timeline frame color
+		"col_popupBg": "232323", // Popup background color
+		"col_popupText": "e6e6e6", // Popup text color
+		"col_menuBgColor": "373737", // Top menu background color
+		"col_menuStyleBg": "151515", // Top menu style background color
+		"col_menuRectStyleEmbossTop": "505050", // Top menu rectangle style emboss top color
+		"col_menuRectStyleEmbossBottom": "000000", // Top menu rectangle style emboss bottom color
+		"col_menuRectNormal": "000000", // Top menu rectangle color
+		"col_menuRectHovered": "505050", // Top menu rectangle color when hovered
+		"col_menuRectDown": "505050", // Top menu rectangle color when down
+		"col_menuTextNormal": "dcdcdc", // Top menu text color
+		"col_menuTextHovered": "ffffff", // Top menu text color when hovered
+		"col_menuTextDown": "ffffff", // Top menu text color when down
+		"col_transportEllipseBg": "151515", // Lower bar transport ellipse background color
+		"col_transportEllipseNormal": "3c3c3c", // Lower bar transport ellipse color
+		"col_transportEllipseHovered": "000000", // Lower bar transport ellipse color when hovered
+		"col_transportEllipseDown": "3c3c3c", // Lower bar transport ellipse color when down
+		"col_transportStyleBg": "141414", // Lower bar transport style background color
+		"col_transportStyleTop": "3c3c3c", // Lower bar transport style top color
+		"col_transportStyleBottom": "000000", // Lower bar transport style bottom color
+		"col_transportIconNormal": "c8c8c8", // Lower bar transport icon color
+		"col_transportIconHovered": "ffffff", // Lower bar transport icon color when hovered
+		"col_transportIconDown": "ffffff", // Lower bar transport icon color when down
+		"col_progressBar": "191919", // Progress bar color
+		"col_progressBarStreaming": "cf0005", // Progress bar when streaming color
+		"col_progressBarFrame": "232323", // Progress bar frame color
+		"col_progressBarFill": "e63728", // Progress bar fill color
+		"col_peakmeterBarProg": "191919", // Peakmeter bar progress bg color
+		"col_peakmeterBarProgFill": "e63728", // Peakmeter bar progress fill color
+		"col_peakmeterBarFillTop": "ffc800", // Peakmeter bar top fill color
+		"col_peakmeterBarFillMiddle": "ffb43c", // Peakmeter bar middle fill color
+		"col_peakmeterBarFillBack": "eb9664", // Peakmeter bar back fill color
+		"col_peakmeterBarVertProgFill": "e63728", // Peakmeter bar vertical progress fill color
+		"col_peakmeterBarVertFill": "e63728", // Peakmeter bar vertical fill color
+		"col_peakmeterBarVertFillPeaks": "ffc800", // Peakmeter bar vertical peaks fill color
+		"col_waveformBarFillFront": "e63728", // Waveform bar front fill color
+		"col_waveformBarFillBack": "b42d1e", // Waveform bar back fill color
+		"col_waveformBarFillPreFront": "737373", // Waveform bar prepaint front fill color
+		"col_waveformBarFillPreBack": "4d4d4d", // Waveform bar prepaint back fill color
+		"col_waveformBarIndicator": "c8c8c8", // Waveform bar progress indicator color
+		"col_volumeBar": "191919", // Volume bar color
+		"col_volumeBarFrame": "000000", // Volume bar frame color
+		"col_volumeBarFill": "e63728", // Volume bar fill color
+		"col_styleBevel": "000000", // Style bevel color
+		"col_styleGradient": "000000", // Style gradient color
+		"col_styleGradient2": "000000", // Style gradient 2 color
+		"col_styleProgressBar": "191919", // Style progress bar color
+		"col_styleProgressBarLineTop": "1e1e1e", // Style progress bar line top color
+		"col_styleProgressBarLineBottom": "2d2d2d", // Style progress bar line bottom color
+		"col_styleProgressBarFill": "b42d1e", // Style progress bar fill color
+		"col_styleVolumeBar": "191919", // Style volume bar color
+		"col_styleVolumeBarFill": "b42d1e" // Style volume bar fill color
+	}
+}
