@@ -1,8 +1,3 @@
-<head>
-<title>Startseite von beispiel.de</title>
-<meta name="google-site-verification" content="-wAGOXwnSQKs5qjCAF3griFqhxmzytdUWjl5scCCisc" />
-</head>
-
 ![IMG20230818131742@0,5x](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/3c8345fc-8a8c-44aa-9316-127c05763539)
 
 ![Publish Placeholder](https://github.com/d3rb/Placeholder/assets/15198548/852a0cde-54bb-4568-b885-17f0e1ed3120)
