@@ -14,7 +14,7 @@
 
 ![Orange Dream](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/41569e23-7ac6-41cd-8fa5-39988cfd9c27)
 
-![2024-01-07 19-43-25_1](https://github.com/d3rb/Placeholder-for-Georgia-ReBORN/assets/15198548/417193e5-8459-4135-b472-f842cf4093ff)
+
 
 # Placeholder for Georgia-ReBORN Theme "Skin"
 
@@ -64,5 +64,7 @@ d3rb
 # Thanks
 
 Many thanks to TT "https://github.com/TT-ReBORN/" for the new interpretation of this Skin!!
+
+> https://github.com/TT-ReBORN/Georgia-ReBORN/
 
 Many thanks to Mordred "https://github.com/kbuffington" for his original Georgia theme
